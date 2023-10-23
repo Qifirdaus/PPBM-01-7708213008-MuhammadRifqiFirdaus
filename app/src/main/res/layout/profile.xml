@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#FFD700" />
+
+    <ImageView
+        android:id="@+id/imageView_background"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/abu" />
+
+    <ImageView
+        android:id="@+id/imageView_profile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/circle"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hiring"/>
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView_profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="James Eriksen"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Telkom University"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_edit_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#696969"
+        android:text="Edit Profile"
+        android:textColor="#DCDCDC"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_profile_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_edit_profile"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+
+        </Space>
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/baseline_phone_24"
+            android:fontFamily="sans-serif-black"
+            android:text=" +628579343883"
+            android:textColor="#696969"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/black" />
+
+        <TextView
+            android:id="@+id/tv_email1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:fontFamily="sans-serif-black"
+            android:text=" Jameseriksen@gmail.com"
+            android:textColor="#696969"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/black" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/baseline_home_24"
+            android:fontFamily="sans-serif-black"
+            android:text=" Bandung, Jawa Barat"
+            android:textColor="#696969"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/black" />
+
+        <TextView
+            android:id="@+id/tv_graduation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/baseline_school_24"
+            android:fontFamily="sans-serif-black"
+            android:text=" S1 Teknologi Rekayasa Multimedia"
+            android:textColor="#696969"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/black" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
